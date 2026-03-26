@@ -40,7 +40,7 @@ class OpenDocumentCoreConan(ConanFile):
 
     def requirements(self):
         self.requires("pugixml/1.15")
-        self.requires("odrcore/4.1.1")
+        self.requires("odrcore/5.0.0")
         self.requires("cryptopp/8.9.0")
         self.requires("miniz/3.0.2")
         self.requires("nlohmann_json/3.12.0")
