@@ -13,7 +13,7 @@
     {
       "matchDatasources": ["conan"],
       "matchPackageNames": ["pdf2htmlex/**", "odrcore/**"],
-      "overrideDatasource": "conan-files"
+      "overrideDatasource": "custom.conan-files"
     }
   ]
 }
