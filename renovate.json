@@ -16,7 +16,7 @@
   "packageRules": [
     {
       "matchDatasources": ["conan"],
-      "matchPackageNames": ["pdf2htmlex"],
+      "matchPackageNames": ["pdf2htmlex/**"],
       "overrideDatasource": "conan-files"
     }
   ]
