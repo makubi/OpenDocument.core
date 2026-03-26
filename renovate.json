@@ -13,7 +13,7 @@
     {
       "matchDatasources": ["conan"],
       "matchPackageNames": ["pdf2htmlex/**", "odrcore/**"],
-      "sourceUrl": "https://api.github.com/repos/opendocument-app/conan-odr-index/contents/recipes/odrcore/config.yml"
+      "overrideDatasource": "custom.conan-files"
     }
   ]
 }
