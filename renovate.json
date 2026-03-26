@@ -3,9 +3,6 @@
   "extends": [
     "config:best-practices"
   ],
-  "git-submodules": {
-    "enabled": true
-  },
   "customDatasources": {
     "conan-files": {
       "defaultRegistryUrlTemplate": "https://raw.githubusercontent.com/opendocument-app/conan-odr-index/refs/heads/main/recipes/{{ packageName }}/config.yml",
@@ -17,10 +14,6 @@
   },
   
   "packageRules": [
-    {
-      "matchManagers": ["git-submodules"],
-      "automerge": true
-    },
     {
       "matchDatasources": ["conan"],
       "matchPackageNames": ["pdf2htmlex"],
