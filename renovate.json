@@ -15,5 +15,12 @@
       "matchPackageNames": ["pdf2htmlex/**", "odrcore/**"],
       "overrideDatasource": "custom.conan-files"
     }
+  ],
+
+  "logLevelRemap": [
+    {
+      "matchMessage": "/^Custom datasource/",
+      "newLogLevel": "info"
+    }
   ]
 }
